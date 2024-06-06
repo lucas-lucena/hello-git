@@ -61,5 +61,6 @@ conectar um repositorio remoto ao repositorio local:
 	git remote add origin "url do repositorio remoto"
 
 para ver mais configurações do repositorio local
+
 	cd .git
 	cat config
