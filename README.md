@@ -41,21 +41,25 @@ adicionar chave ssh local ao ssh-agent:
 ## Criando e Clonando repositorios
 
 criar repositorio local:
+	
 	git init
 
 para clonar um repositorio:
+	
 	git clone "url do repositorio"
 
 caso queria mudar o nome do workspace local:
+	
 	git clone "url do repositorio" "novo nome local"
 
 verificar se o repositorio local esta vinculado a um repositorio remoto:
+	
 	git remote -v
 
 conectar um repositorio remoto ao repositorio local:
+	
 	git remote add origin "url do repositorio remoto"
 
 para ver mais configurações do repositorio local
-> cd .git
-
-> cat config
+	cd .git
+	cat config
