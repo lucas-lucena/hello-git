@@ -57,4 +57,5 @@ conectar um repositorio remoto ao repositorio local:
 
 para ver mais configurações do repositorio local
 > cd .git
-> nano config
+
+> cat config
