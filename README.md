@@ -163,3 +163,23 @@ Retorna a um estado anterior apagando todas as modificações feitas posteriorme
 ```
 git reset --hard ID_do_commit
 ```
+
+## Versionamento e Branchs
+
+Trocar para outra branch:
+
+```
+git checkout Nome_da_branch
+```
+
+Adicionar nova branch:
+
+```
+git checkout -b Nome_da_nova_branch
+```
+
+Verificar branchs do repositorio:
+
+```
+git branch -v
+```
